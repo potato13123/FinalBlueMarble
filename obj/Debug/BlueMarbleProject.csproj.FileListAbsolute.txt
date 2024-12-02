@@ -1,0 +1,17 @@
+C:\Users\김지원\Desktop\BlueMarble project\BlueMarbleProject\bin\Debug\BlueMarbleProject.exe.config
+C:\Users\김지원\Desktop\BlueMarble project\BlueMarbleProject\bin\Debug\BlueMarbleProject.exe
+C:\Users\김지원\Desktop\BlueMarble project\BlueMarbleProject\bin\Debug\BlueMarbleProject.pdb
+C:\Users\김지원\Desktop\BlueMarble project\BlueMarbleProject\obj\Debug\BlueMarbleProject.csproj.AssemblyReference.cache
+C:\Users\김지원\Desktop\BlueMarble project\BlueMarbleProject\obj\Debug\BlueMarbleProject.Building.resources
+C:\Users\김지원\Desktop\BlueMarble project\BlueMarbleProject\obj\Debug\BlueMarbleProject.BuildingSell.resources
+C:\Users\김지원\Desktop\BlueMarble project\BlueMarbleProject\obj\Debug\BlueMarbleProject.GameModeScreen.resources
+C:\Users\김지원\Desktop\BlueMarble project\BlueMarbleProject\obj\Debug\BlueMarbleProject.GameStartScreen.resources
+C:\Users\김지원\Desktop\BlueMarble project\BlueMarbleProject\obj\Debug\BlueMarbleProject.GameTollgate.resources
+C:\Users\김지원\Desktop\BlueMarble project\BlueMarbleProject\obj\Debug\BlueMarbleProject.MainBoard.resources
+C:\Users\김지원\Desktop\BlueMarble project\BlueMarbleProject\obj\Debug\BlueMarbleProject.Properties.Resources.resources
+C:\Users\김지원\Desktop\BlueMarble project\BlueMarbleProject\obj\Debug\BlueMarbleProject.ShowArea.resources
+C:\Users\김지원\Desktop\BlueMarble project\BlueMarbleProject\obj\Debug\BlueMarbleProject.TakeOver.resources
+C:\Users\김지원\Desktop\BlueMarble project\BlueMarbleProject\obj\Debug\BlueMarbleProject.csproj.GenerateResource.cache
+C:\Users\김지원\Desktop\BlueMarble project\BlueMarbleProject\obj\Debug\BlueMarbleProject.csproj.CoreCompileInputs.cache
+C:\Users\김지원\Desktop\BlueMarble project\BlueMarbleProject\obj\Debug\BlueMarbleProject.exe
+C:\Users\김지원\Desktop\BlueMarble project\BlueMarbleProject\obj\Debug\BlueMarbleProject.pdb

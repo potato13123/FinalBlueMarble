@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0A81CC6C-0710-4C29-931F-AEB6FB34C05F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BlueMarbleProject</RootNamespace>
+    <AssemblyName>BlueMarbleProject</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Building.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Building.Designer.cs">
+      <DependentUpon>Building.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuildingSell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuildingSell.Designer.cs">
+      <DependentUpon>BuildingSell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameModeScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameModeScreen.Designer.cs">
+      <DependentUpon>GameModeScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameStartScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameStartScreen.Designer.cs">
+      <DependentUpon>GameStartScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameTollgate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameTollgate.Designer.cs">
+      <DependentUpon>GameTollgate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainBoard.Designer.cs">
+      <DependentUpon>MainBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShowArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowArea.Designer.cs">
+      <DependentUpon>ShowArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TakeOver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TakeOver.Designer.cs">
+      <DependentUpon>TakeOver.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Building.resx">
+      <DependentUpon>Building.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuildingSell.resx">
+      <DependentUpon>BuildingSell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameModeScreen.resx">
+      <DependentUpon>GameModeScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameStartScreen.resx">
+      <DependentUpon>GameStartScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameTollgate.resx">
+      <DependentUpon>GameTollgate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainBoard.resx">
+      <DependentUpon>MainBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ShowArea.resx">
+      <DependentUpon>ShowArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TakeOver.resx">
+      <DependentUpon>TakeOver.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Solo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Solo_Checked.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Team_Checked.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2P.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2P_Checked.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3P.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3P_Checked.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4P.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4P_Checked.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\타이베이.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\타이베이1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\마닐라.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\베이징.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\마닐라1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\제주도.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\싱가폴.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\카이로.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\카이로1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\이스탄불.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\무인도.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\아테네.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\코펜하겐.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\스톡홀름.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\콩고드여객기.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\베른.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\베를린.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\오타와.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\부에노스 아레스.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\상파울루.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\부산.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\시드니.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\하와이.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\마드리드.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\퀸 엘리자베스 호.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\세계여행.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\도쿄.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\콜롬비아호.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\파리.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\로마.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\런던.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\서울.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\사회복지기금.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\사회복지기금1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\사회복지기금 접수처.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\사회복지기금 접수처1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\사회복지기금.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Donate2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Donate21.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
